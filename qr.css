@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* section{
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+} */
+body{
+    
+    overflow: hidden;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: brown;
+}
+#submit{
+    background-color: blue;
+    color: white;
+    height: 30px;
+    width: 150px;
+}
+#url{
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 250px;
+}
+#qr_container{
+    background-color: white;
+    padding: 30px;
+}
+
+
+@media (min-width:300px)and (max-width:390px) {
+    body{
+        background-color: olivedrab;
+    }
+}
+@media (max-width:331){
+    #qr_container{
+        width: 200px;
+    }
+}
+@media(min-width:250px)and (max-width:300px){
+    h1{
+        color: blue;
+    }
+}
